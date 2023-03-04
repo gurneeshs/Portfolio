@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Ubuntu:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* --------------------------------------NAVBAR SECTION------------------------------------------------ */
+.navbar
+{
+    /* display: flex; */
+    /* border: 1px solid black; */
+    position: fixed;
+    width: 100%;
+    background-color: rgb(17, 26, 77);
+    margin: 0rem 0rem;
+    padding: 0.5rem 0.5rem;
+
+}
+
+.navbar ul li
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width:8%;
+    padding: 0rem 0rem;
+    margin: 0.3rem 0.1rem;
+}
+
+.navbar a
+{
+    text-align: center;
+    width: 90%;
+    padding: 0.5rem 0.4rem;
+    /* border: 1px solid white; */
+    color: white;
+    text-decoration: none;
+}
+
+.navbar #sign
+{
+    margin-left: 2.3rem;
+    margin-right: 37rem;
+}
+
+.navbar a:hover
+{
+    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 19px;
+    background-color: white;
+    color: black;
+}
+
+/* ---------------------------------------HOME SECTION------------------------------------------------- */
+#home
+{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    z-index: -1;
+}
