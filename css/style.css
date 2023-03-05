@@ -169,6 +169,9 @@ html
 #Aboutme .ContentA .left
 {
     /* border: 1px solid blue; */
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
     margin: 0.1rem;
     padding: 0.2rem;
 }
