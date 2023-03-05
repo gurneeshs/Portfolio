@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Pacifico&family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+/* font-family: 'Mynerve', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Basic', sans-serif; 
+font-family: 'Bad Script', cursive;*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* --------------------------------------NAVBAR SECTION------------------------------------------------ */
+.navbar
+{
+    /* display: flex; */
+    /* border: 1px solid black; */
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    margin: 0rem 0rem;
+    padding: 0.5rem 0.5rem;
+    z-index: +2;
+
+}
+
+.navbar ul li
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    display: inline-flex;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    width:8%;
+    padding: 0rem 0rem;
+    margin: 0.3rem 0.1rem;
+}
+
+.navbar a
+{
+    text-align: center;
+    width: 90%;
+    padding: 0.5rem 0.4rem;
+    /* border: 1px solid white; */
+    color: white;
+    text-decoration: none;
+}
+
+.navbar #sign
+{
+    margin-left: 2.3rem;
+    margin-right: 37rem;
+}
+
+.navbar a:hover
+{
+    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 19px;
+    background-color: white;
+    color: black;
+}
+
+/* ---------------------------------------HOME SECTION------------------------------------------------- */
+#home
+{
+    border: 3px solid black;
+    margin: 0.5rem 0rem;
+    padding: 0rem;
+ 
+    display: flex;
+    position: absolute;
+    /* flex-wrap: wrap; */
+    width: 99.6%;
+    height: 97%; 
+    z-index: -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: url("gif1.gif");
+
+}
+
+#home .content
+{
+    border: 1px solid black;
+    display: flex;
+    position: relative;
+    margin: 7rem 2rem;
+    padding: 1rem 0.1rem;
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    color: white;
+    width: 90%;
+    height: auto;
+}
+
+#home .img
+{
+    /* background: url("img.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 470px;
+    border: 1px solid black;
+    border-radius: 60%;
+    display: block;
+    position: relative;
+    margin:5em 6rem;
+    padding: 1rem 1rem;
+    width: 63%;
+    height: 70%;
+}
+/* #home .video video */
+/* {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start; */
+
+/* ----------------------------------------ABOUT ME SECTION-------------------------------------------- */
+#Aboutme
+{
+    font-family: 'Basic', sans-serif;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    margin: 40rem 0rem;
+    padding: 0.5rem;
+    width: 98.5%;
+    display: grid;
+    justify-content: center;
+
+}
+
+#Aboutme .Heading
+{
+    display: flex;
+    /* flex-direction: column; */
+    font-size: 1.6rem;
+    position: relative;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: 0rem 0rem;
+    justify-content: center;
+}
+
+#Aboutme .ContentA
+{
+    /* border: 1px solid; */
+    margin: 0.1rem 0rem;
+    padding: 1rem;
+    display: grid;
+    width: auto;
+    grid-template-columns: 1fr 1fr;
+}
+#Aboutme .ContentA .left
+{
+    /* border: 1px solid blue; */
+    margin: 0.1rem;
+    padding: 0.2rem;
+}
+
+#Aboutme .ContentA .right
+{
+    /* border: 1px solid blue; */
+    margin: 0.1rem;
+    padding: 1rem;
+}
+
+#Aboutme .ContentA .right h2
+{
+    font-size: 1.8rem;
+}
+#Aboutme .ContentA .right h4
+{
+    padding-bottom:1rem ;
+}
+#Aboutme .ContentA .right p
+{
+    padding: 0.15rem 0rem;
+}
+
+/* ---------------------------------------EDUCATION SECTION-------------------------------------------- */
+#Education
+{
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    margin: 66rem 0rem;
+    padding: 1rem;
+    width: 97.5%;
+    display: grid;
+    background-color: rgb(0 119 255 / 24%);
+}
+
+#Education .heading
+{
+    font-family: 'Basic', sans-serif; 
+    font-size: 1.6rem;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+#Education .btech
+{
+    background-color: white;
+    box-shadow: 4px 4px rgba(128, 128, 128, 0.521);
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 0rem ;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 3fr;
+}
+#Education .btech .logo
+{
+    display: block;
+    padding: 4rem;
+    background: url("medicaps.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#Education .btech .content
+{
+    padding: 0rem 1rem;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+#Education .btech .content h2
+{
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+    color: rgb(17, 17, 143);
+}
+#Education .btech .content h4
+{
+    font-size: 1.2rem;
+    color: rgba(2, 2, 2, 0.733);
+    padding: 0.3rem 0rem;
+}
+#Education .btech .content h5
+{
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+}
+
+#Education .HSC
+{
+    background-color: white;
+    box-shadow: 4px 4px rgba(128, 128, 128, 0.521);
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 0rem ;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 3fr;
+}
+#Education .HSC .logo
+{
+    display: block;
+    padding: 4rem;
+    background: url("sbvm.jpg");
+    background-repeat: no-repeat;
+    background-size: 230px;
+}
+
+#Education .HSC .content
+{
+    padding: 0rem 1rem;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+}
+#Education .HSC .content h2
+{
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+    color: rgb(17, 17, 143);
+}
+#Education .HSC .content h4
+{
+    font-size: 1.2rem;
+    color: rgba(2, 2, 2, 0.733);
+    padding: 0.3rem 0rem;
+}
+#Education .HSC .content h5
+{
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+}
+
+
+#Education .SSC
+{
+    background-color: white;
+    box-shadow: 4px 4px rgba(128, 128, 128, 0.521);
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    padding: 0rem ;
+    display: grid;
+    width: 70%;
+    grid-template-columns: 1fr 3fr;
+}
+#Education .SSC .logo
+{
+    display: block;
+    padding: 4rem;
+    background: url("sbvm.jpg");
+    background-repeat: no-repeat;
+    background-size: 230px;
+}
+#Education .SSC .content
+{
+    padding: 0rem 1rem;
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+#Education .SSC .content h2
+{
+    font-size: 1.7rem;
+    padding: 0.5rem 0rem;
+    color: rgb(17, 17, 143);
+}
+#Education .SSC .content h4
+{
+    font-size: 1.2rem;
+    color: rgba(2, 2, 2, 0.733);
+    padding: 0.3rem 0rem;
+}
+#Education .SSC .content h5
+{
+    font-size: 1.3rem;
+    padding: 0.3rem 0rem;
+}
+
+
+/* --------------------------------------------SKILLS SECTION------------------------------------------ */
+#Skills
+{
+    /* border: 1px solid black; */
+    display: flex;
+    position: absolute;
+    margin: 45rem 0rem;
+    padding: 1rem;
+    width: 97.5%;
+}
+
+/* ----------------------------------------CONTACT SECTION--------------------------------------------- */
+#Contact
+{
+    /* border: 1px solid black; */
+    display: flex;
+    position: absolute;
+    margin: 47.5rem 0rem;
+    padding: 1rem;
+    width: 97.5%;
+}
