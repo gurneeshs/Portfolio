@@ -62,8 +62,8 @@ html
 
 .navbar #sign
 {
-    margin-left: 2.3rem;
-    margin-right: 37rem;
+    margin-left: 4.6rem;
+    margin-right: 32rem;
 }
 
 .navbar a:hover
@@ -85,22 +85,25 @@ html
     display: flex;
     position: absolute;
     /* flex-wrap: wrap; */
-    width: 99.6%;
+    width: 99.5%;
     height: 97%; 
     z-index: -1;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background: url("gif1.gif");
+    background-repeat: no-repeat;
+    background-size: 85rem;
 
 }
 
 #home .content
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     position: relative;
-    margin: 7rem 2rem;
-    padding: 1rem 0.1rem;
+    justify-content: center;
+    margin: 7rem auto;
+    padding: 1rem 0.5rem;
     font-family: 'Pacifico', cursive;
     font-size: 3rem;
     color: white;
@@ -110,17 +113,18 @@ html
 
 #home .img
 {
-    /* background: url("img.jpg"); */
+    background: url("profile.jpg");
     background-repeat: no-repeat;
-    background-size: 470px;
+    background-position: center;
+    background-size: 15rem;
     border: 1px solid black;
-    border-radius: 60%;
+    border-radius: 50%;
     display: block;
     position: relative;
-    margin:5em 6rem;
-    padding: 1rem 1rem;
-    width: 63%;
-    height: 70%;
+    margin:5rem auto;
+    padding: 0rem 1rem;
+    width: 13%;
+    height: 80%;
 }
 /* #home .video video */
 /* {
@@ -131,10 +135,18 @@ html
     align-items: flex-start; */
 
 /* ----------------------------------------ABOUT ME SECTION-------------------------------------------- */
+#aboutmep
+{
+    /* border: 1px solid white; */
+    padding: 1rem;
+    display: flex;
+    position: absolute;
+    margin: 36rem 1rem;
+}
 #Aboutme
 {
     font-family: 'Basic', sans-serif;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     position: absolute;
     margin: 40rem 0rem;
@@ -164,7 +176,7 @@ html
     padding: 1rem;
     display: grid;
     width: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 #Aboutme .ContentA .left
 {
@@ -172,14 +184,16 @@ html
     background-image: url("img.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 0.1rem;
+    margin: 1rem 0rem;
+    margin-left: 12rem;
     padding: 0.2rem;
 }
 
 #Aboutme .ContentA .right
 {
     /* border: 1px solid blue; */
-    margin: 0.1rem;
+    margin: 0.1rem 2rem;
+    width: 87%;
     padding: 1rem;
 }
 
@@ -189,20 +203,29 @@ html
 }
 #Aboutme .ContentA .right h4
 {
-    padding-bottom:1rem ;
+    padding-bottom:1.2rem ;
 }
 #Aboutme .ContentA .right p
 {
-    padding: 0.15rem 0rem;
+    font-size: 1.1rem;
+    padding: 0.25rem 0rem;
 }
 
 /* ---------------------------------------EDUCATION SECTION-------------------------------------------- */
-#Education
+#educationp
 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    padding: 1rem;
     display: flex;
     position: absolute;
-    margin: 66rem 0rem;
+    margin: 65rem 1rem;
+}
+#Education
+{
+    /* border: 1px solid black; */
+    display: flex;
+    position: absolute;
+    margin: 68rem 0rem;
     padding: 1rem;
     width: 97.5%;
     display: grid;
@@ -247,8 +270,6 @@ html
     padding: 0rem 1rem;
     /* font-family: 'Pacifico', cursive; */
     font-family: 'Ubuntu', sans-serif;
-
-
 }
 #Education .btech .content h2
 {
@@ -366,23 +387,188 @@ html
 
 
 /* --------------------------------------------SKILLS SECTION------------------------------------------ */
+#skillsp
+{
+    /* border: 1px solid black; */
+    padding: 1rem;
+    display: flex;
+    position: absolute;
+    margin: 34rem 1rem;
+}
 #Skills
 {
     /* border: 1px solid black; */
+    background-color: black;
     display: flex;
     position: absolute;
-    margin: 45rem 0rem;
+    margin: 37rem 0rem;
+    padding: 0rem 0rem;
+    width: 99.9%;
+    display: grid;
+}
+#Skills .heading
+{
+    /* border: 1px solid black; */
+    background-color: black;
+    color: white;
+    width: 99.4%;
+    margin: 0.5rem 0.2rem;
+    font-family: 'Basic', sans-serif; 
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Skills .content
+{
+    /* border: 1px solid black; */
+    background-color: black;
+    width: 80%;
+    height: 25rem;
+    margin: 0.2rem auto;
+    padding: 1.2rem;
+    /* display: grid; */
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#Skills .content .container
+{
+    border: 1px solid white;
+    background-color: white;
+    padding: 3.5rem;
+    margin: 0.6rem 0.61rem;
+    height: auto;
+    border-radius: 0.4rem;
+    width: 10%;
+    height: 15%;
+}
+
+#Skills .content .container:hover
+{
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+#cl
+{
+    background-image: url("c.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+#cpp
+{
+    display: inline-block;
+    background-image: url("c++.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+#java
+{
+    background-image: url("java.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+#python
+{
+    background-image: url("python.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+#html
+{
+    background-image: url("html.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+#css
+{
+    background-image: url("css.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+
+#mysql
+{
+    background-image: url("mysql.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    /* display: flex; */
+    /* position: absolute; */
+    /* width: 100%; */
+}
+/* ----------------------------------------CONTACT SECTION--------------------------------------------- */
+#contactp
+{
+    border: 1px solid white;
+    padding: 1rem;
+    display: flex;
+    position: absolute;
+    margin: 67rem 1rem;
+    margin-bottom: 0rem;
+}
+#Contact
+{
+    background-image: url("contact.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    margin: 70rem 0rem;
     padding: 1rem;
     width: 97.5%;
 }
 
-/* ----------------------------------------CONTACT SECTION--------------------------------------------- */
-#Contact
+#Contact .form
 {
-    /* border: 1px solid black; */
-    display: flex;
-    position: absolute;
-    margin: 47.5rem 0rem;
-    padding: 1rem;
-    width: 97.5%;
+    border: 1px solid black;
+    padding: 0.5rem;
+    width: 50%;
+    margin: 2rem auto;
+    justify-content: center;
+}
+#Contact .form input
+{
+    margin: 0.4rem auto;
+    border: 1px solid ;
+    width: 90%;
+    height: 2rem;
 }
