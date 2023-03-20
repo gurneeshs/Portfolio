@@ -86,7 +86,10 @@ html
     background-color: white;
     color: black;
 }
-
+.hamberger
+{
+    display: none;
+}
 /* ---------------------------------------HOME SECTION------------------------------------------------- */
 #home
 {

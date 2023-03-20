@@ -1,20 +1,44 @@
 .navbar #sign
 {
-    margin: 0.5rem auto;
+    margin: 0.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     display: block;
 }
 .navbar
 {
     margin: 0rem 0rem;
-    padding: 0.5rem auto;
-    text-align: center;
+    padding: 0.5rem 0rem;
+
 }
+
+.menu
+{
+    background-color: black;
+    margin: 0.5rem;
+    margin-left: 0rem;
+    display: block;
+    position:fixed;
+    transform: translateY(-120%);
+    transition: transform 0.2s;
+    /* transition: transform 0.3s ease-in; */
+    /* border: 1px solid white; */
+    width: 100%;
+    z-index: -2;
+}
+/* .sidebar
+{
+    border: 1px solid red;
+    display: none;
+} */
 
 .navbar ul li
 {
+    /* border: 1px solid blue; */
+    display: block;
     justify-content: center;
-    width:17%;
-    padding: 0rem 0rem;
+    width:100%;
+    padding: 0.4rem 0rem;
 
 }
 
@@ -22,8 +46,45 @@
 {
     width: 100%;
     padding: 0.5rem 0.2rem;
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
+.navbar li:hover
+{
+    text-decoration: underline;
+    border: 1px solid white;
+    border-radius: 19px;
+    background-color: white;
+    color: black;
+}
+.hamberger
+{
+    /* border: 1px solid white; */
+    /* background: url("ham.jpg") no-repeat;
+    background-size: contain; */
+    padding: 0.3rem;
+    margin:1rem ;
+    margin-right: 0rem;
+    top: 0rem;
+    left: 0rem;
+    width: 15%;
+    height: 7%;
+    /* margin: 1rem 1rem; */
+    display: block;
+    position: fixed;
+    cursor: pointer;
+}
+.closeIcon
+{
+    display: none;
+}
+.showMenu
+{
+    transform: translateY(0);
+}
+/* .hamberger:hover
+{
+    cursor: pointer;
+} */
 /* -------------------------------------------------------HOME SECTION-------------------------------------------------- */
 #home
 {
