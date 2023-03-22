@@ -202,7 +202,7 @@ html
     background-size: contain;
     margin: 1rem 0rem;
     margin-left: 12rem;
-    padding: 8rem;
+    padding: 9rem;
     display: inline-block;
 }
 
@@ -213,7 +213,7 @@ html
     /* border: 1px solid blue; */
     margin: 0.1rem 2rem;
     margin-left: 0rem;
-    width: 47.5%;
+    width: 40.5%;
     padding: 1rem;
 }
 
@@ -558,7 +558,7 @@ html
     margin: 0.5rem 0.2rem;
     margin-top: 3rem;
     font-family: 'Basic', sans-serif; 
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: flex;
     justify-content: center;
 }
