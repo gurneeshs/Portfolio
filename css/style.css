@@ -84,7 +84,7 @@ html
     text-decoration: underline;
     border: 1px solid white;
     border-radius: 19px;
-    background-color: #CB2D6F;
+    background-color: #14A098;
     color: #CCCCCC;
 }
 .hamberger
@@ -177,7 +177,7 @@ html
 #Aboutme .Heading h2
 {
     font-size: 4rem;
-    color: #CB2D6F;
+    color: #14A098;
     display: inline-block;
 }
 
@@ -186,7 +186,7 @@ html
     /* border: 1px solid black; */
     border-radius: 3rem;
     margin: 0.1rem auto;
-    background-color: #CB2D6F;
+    background-color: #14A098;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
     padding-bottom: 3rem;
@@ -268,7 +268,7 @@ html
 
 #Education .btech
 {
-    background-color: #CB2D6F;
+    background-color: #14A098;
     box-shadow: 4px 4px #14A098;
     border: 2px solid rgba(128, 128, 128, 0.521);
     border-radius: 6px;
@@ -315,7 +315,7 @@ html
 
 #Education .HSC
 {
-    background-color: #CB2D6F;
+    background-color: #14A098;
     box-shadow: 4px 4px #14A098;
     border: 2px solid rgba(128, 128, 128, 0.521);
     border-radius: 6px;
@@ -364,7 +364,7 @@ html
 
 #Education .SSC
 {
-    background-color: #CB2D6F;
+    background-color: #14A098;
     box-shadow: 4px 4px #14A098;
     border: 2px solid rgba(128, 128, 128, 0.521);
     border-radius: 6px;
@@ -439,7 +439,7 @@ html
 {
     border: 1px solid black;
     border-radius: 2rem;
-    background-color: #CB2D6F;
+    background-color: #14A098;
     text-align: center;
     width: 85%;
     height: 100%;
@@ -612,7 +612,7 @@ html
 {
     margin-top: 0.2rem;
     font-size: 4rem;
-    color: #CB2D6F;
+    color: #14A098;
     display: inline-block;
 }
 
@@ -622,7 +622,7 @@ html
     border-radius: 1rem;
     padding: 2.5rem 1rem;
     width: 85%;
-    background-color: #CB2D6F;
+    background-color: #14A098;
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -692,7 +692,7 @@ button:hover
 }
 .links .contactinfo h1
 {
-    color: #CB2D6F;
+    color: #14A098;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
     font-size: 1.7rem;
@@ -716,11 +716,11 @@ button:hover
 }
 .links .quicklinks li:hover
 {
-    color: #CB2D6F;
+    color: #14A098;
 }
 .links .quicklinks a:hover
 {
-    color: #CB2D6F;
+    color: #14A098;
 }
 .links .quicklinks a
 {
@@ -729,7 +729,7 @@ button:hover
 }
 .links .quicklinks h1
 {
-    color: #CB2D6F;
+    color: #14A098;
     font-size: 1.7rem;
     padding: 0.5rem 0rem;
 }
