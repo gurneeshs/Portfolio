@@ -14,7 +14,7 @@
 
 .menu
 {
-    background-color: black;
+    background-color: #14A098;
     margin: 0.5rem;
     margin-left: 0rem;
     display: block;
@@ -51,10 +51,14 @@
 .navbar li:hover
 {
     text-decoration: underline;
-    border: 1px solid white;
+    /* border: 1px solid white; */
     border-radius: 19px;
-    background-color: white;
+    background-color: #CB2D6F;
     color: black;
+}
+.navbar a:hover
+{
+    border: none;
 }
 .hamberger
 {
@@ -102,7 +106,7 @@
     margin: 0rem auto;
     padding: 0rem 0.5rem;
     font-size: 2rem;
-    color: black;
+    color: #cccccc;
     width: 90%;
     height: auto;
 }
@@ -176,8 +180,13 @@
 {
     background-size: cover;
 }
-
-/* -------------------------------------------------------SILLS SECTION------------------------------------------------- */
+/* ---------------------------------------------WORK SECTION------------------------------------------ */
+#Work .project
+{
+    display: block;
+    width: 90%;
+}
+/* --------------------------------------SILLS SECTION------------------------------------------------- */
 #Skills .content
 {
     height: 100%;
