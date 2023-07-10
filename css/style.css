@@ -11,10 +11,11 @@
     margin: 0;
     padding: 0;
 }
-/* .random
-{
-    color: white;
-} */
+
+body{
+    background-color:#0F292F;   
+}
+
 html
 {
     scroll-behavior: smooth;
@@ -28,7 +29,6 @@ html
 
 .navbar
 {
-    /* border: 1px solid black; */
     position: fixed;
     width: 100%;
     background-color:#14A098;
@@ -40,8 +40,6 @@ html
 }
 .navbar .navelements
 {
-    /* width: 100%; */
-    /* border: 1px solid red; */
     margin-left:26rem;
 }
 .navbar ul li
@@ -49,7 +47,6 @@ html
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     justify-content: center;
-    /* border: 1px solid blue; */
     display: inline-flex;
     color: white;
     text-decoration: none;
@@ -64,9 +61,11 @@ html
     text-align: center;
     width: 90%;
     padding: 0.5rem 0.4rem;
-    /* border: 1px solid white; */
     color: white;
     text-decoration: none;
+    border: 1px solid #14A098;
+    border-radius: 19px;
+
 }
 
 .navbar #sign
@@ -75,7 +74,6 @@ html
     position:absolute;
     color: white;
     width: 10%;
-    /* border: 1px solid white; */
     margin: 0.5rem 4.6rem;
 }
 
@@ -91,19 +89,26 @@ html
 {
     display: none;
 }
-/* ---------------------------------------HOME SECTION------------------------------------------------- */
+/* ----------------------------------------HEAD SECTION--------------------------------------- */
+#head{
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
+/* --------------------------------------HOME SECTION---------------------------------------------- */
 #home
 {
-    border: 0.1px solid black;
     margin: 0rem 0rem;
-    padding: 6.4rem 0rem;
+    padding: 0rem;
     display: flex;
-    flex-direction: column;
-    height: 250rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 0rem;
     width: 100%;
     height: 100%; 
     z-index: -1;
-    background: url("gif1.gif") no-repeat center center/cover;
+    background-color:#0F292F;
 }
 #home::before
 {
@@ -115,44 +120,56 @@ html
     width: 100%;
     z-index: -1;
 }
-
+#home .home-items{
+    margin: 6rem 5rem;
+    padding: 1rem;
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+}
 #home .img
 {
-    background: url("profile1.jpg") no-repeat center center/contain;
-    /* background-size: auto; */
-    /* border: 1px solid black; */
-    /* border-radius: 70%; */
+    width:20%;
     display: block;
     margin:0rem auto;
     margin-bottom: 0rem;
     padding: 0rem 0rem;
-    padding-bottom: 19rem;
-    width: 30%;
+    padding-bottom: 0rem;
     height: 100%;
     z-index: +1;
     opacity: 0.9;
 }
+
+#home img{
+    border: 0.5rem solid white;
+    width: 100%;
+    height: auto;
+}
 #home .content
 {
-    /* border: 1px solid black; */
     display: flex;
-    /* position: relative; */
     justify-content: center;
     margin: 1rem auto;
     padding: 1rem 0.5rem;
     font-family: 'Pacifico', cursive;
-    font-size: 3rem;
+    font-size: 2.4rem;
     color: #CCCCCC;
-    width: 90%;
+    width: 50%;
     height: auto;
 }
 
 /* --------------------------------------ABOUT SECTION------------------------------------------------- */
+#aboutme-pointer
+{
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
 #Aboutme
 {
     z-index: -2;
     font-family: 'Basic', sans-serif;
-    border: 0.1px solid #0F292F;
     padding: 1rem 0rem;
     width: 100%;
     justify-content: center;
@@ -160,30 +177,27 @@ html
 }
 #Aboutme .Heading
 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     width: 100%;
     color: #CCCCCC;
-    /* border: 1px solid black; */
-    margin: 2rem 0rem;
+    margin: 0rem 0rem;
     justify-content: center;
     text-align: center;
 }
 #Aboutme .Heading h1
 {
-    /* font-size: 1.6rem; */
     display: inline;
     margin-right: 1rem;
 }
 #Aboutme .Heading h2
 {
-    font-size: 4rem;
+    font-size: 3.4rem;
     color: #14A098;
     display: inline-block;
 }
 
 #Aboutme .ContentA
 {
-    /* border: 1px solid black; */
     border-radius: 3rem;
     margin: 0.1rem auto;
     background-color: #14A098;
@@ -196,7 +210,6 @@ html
 }
 #Aboutme .ContentA .left
 {
-    /* border: 1px solid blue; */
     background-image: url("img.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -210,7 +223,6 @@ html
 {
     color: #CCCCCC;
     display: inline-block;
-    /* border: 1px solid blue; */
     margin: 0.1rem 2rem;
     margin-left: 0rem;
     width: 40.5%;
@@ -238,31 +250,31 @@ html
 
 /* ------------------------------------EDUCATION SECTION----------------------------------------------- */
 
+#education-pointer
+{
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
 #Education
 {
-    border: 0.1px solid #0F292F;
-    padding: 0rem;
+    padding: 0.2rem 0rem;
     width: 100%;
-    height: 90%;
+    height: 100%;
     background-color:#0F292F;
-    /* background: url("education.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     z-index:-1;
-    /* opacity: 0.9; */
 }
 
 #Education .heading
 {
     color:#CCCCCC;
     font-family: 'Basic', sans-serif; 
-    font-size: 2rem;
-    /* border: 1px solid; */
+    font-size: 1.7rem;
     align-items: center;
     text-align: center;
-    /* display: flex; */
-    /* justify-content: center; */
-    margin-top: 3rem;
+    margin-top: 0rem;
     padding: 0rem;
 }
 
@@ -291,7 +303,6 @@ html
 #Education .btech .content
 {
     padding: 0rem 1rem;
-    /* font-family: 'Pacifico', cursive; */
     font-family: 'Ubuntu', sans-serif;
 }
 #Education .btech .content h2
@@ -339,7 +350,6 @@ html
 #Education .HSC .content
 {
     padding: 0rem 1rem;
-    /* font-family: 'Pacifico', cursive; */
     font-family: 'Ubuntu', sans-serif;
 }
 #Education .HSC .content h2
@@ -387,10 +397,7 @@ html
 #Education .SSC .content
 {
     padding: 0rem 1rem;
-    /* font-family: 'Pacifico', cursive; */
     font-family: 'Ubuntu', sans-serif;
-
-
 }
 #Education .SSC .content h2
 {
@@ -411,28 +418,29 @@ html
     padding: 0.3rem 0rem;
 }
 /* --------------------------------------SKILLS SECTION------------------------------------------------ */
+#skills-pointer
+{
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
 #Skills
 {
-    border: 0.1px solid #0F292F;    
     margin-top: 0rem;
-    padding: 0rem 0rem;
+    padding: 0.2rem 0rem;
     width: 100%;
     background-color:#0F292F;
-    /* background: url("skills1.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* opacity: 0.9; */
 }
 #Skills .heading
 {
     text-align: center;
-    /* border: 1px solid blueviolet; */
     color: #CCCCCC;
     width: 100%;
     margin: 0.5rem 0rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     font-family: 'Basic', sans-serif; 
-    font-size: 2rem;
+    font-size: 1.7rem;
     justify-content: center;
 }
 #Skills .content
@@ -462,10 +470,9 @@ html
 
 #Skills .content .container:hover
 {
-    /* border: 2px solid rgb(17, 15, 15); */
     cursor: pointer;
-
 }
+
 #cl
 {
     background-image: url("c.png");
@@ -541,12 +548,17 @@ html
 }
 
 /* -------------------------------------WORK SECTION--------------------------------------------------- */
+#work-pointer
+{
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
+
 #Work
 {
-    
-    border: 0.1px solid #0F292F;
     background-color:#0F292F;
-    padding: 0rem;
+    padding: 1rem 0rem;
     width: 100%;
     margin-bottom: 0rem;
     text-align: center;   
@@ -555,10 +567,9 @@ html
 {
     color: #CCCCCC;
     width: 100%;
-    margin: 0.5rem 0.2rem;
-    margin-top: 3rem;
+    margin: 0rem 0rem;
     font-family: 'Basic', sans-serif; 
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     display: flex;
     justify-content: center;
 }
@@ -573,7 +584,7 @@ html
 
 }
 #Work .project h2{
-    margin: 0.5rem;
+    margin: 0rem 0rem;
     font-family: 'Basic', sans-serif; 
     color: #f5f3f3;
 }
@@ -582,10 +593,14 @@ html
     height: fit-content;
 }
 /* ------------------------------------CONTACT SECTION------------------------------------------------- */
+#contact-pointer
+{
+
+    padding: 2rem;
+    background-color: #0F292F;
+}
 #Contact
 {
-    
-    border: 0.1px solid #0F292F;
     background-color:#0F292F;
     padding: 0rem;
     width: 100%;
@@ -596,22 +611,21 @@ html
     color: #CCCCCC;
     width: 99.4%;
     margin: 0.5rem 0.2rem;
-    margin-top: 3rem;
+    margin-top: 0rem;
     font-family: 'Basic', sans-serif; 
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: flex;
     justify-content: center;
 }
 #Contact .heading h1
 {
-    /* font-size: 1.6rem; */
     display: inline;
     margin-right: 1rem;
 }
 #Contact .heading h2
 {
     margin-top: 0.2rem;
-    font-size: 4rem;
+    font-size: 3.4rem;
     color: #14A098;
     display: inline-block;
 }
@@ -623,7 +637,7 @@ html
     padding: 2.5rem 1rem;
     width: 85%;
     background-color: #14A098;
-    margin: 1rem auto;
+    margin: 0rem auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -632,7 +646,6 @@ html
     background: url("contact.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    /* border: 1px solid black; */
     display: block;
     width: 90%;
     height: 90%;
@@ -665,7 +678,6 @@ button:hover
 {
     padding-top: 2rem;
     z-index: -1;
-    border: 0.1px solid #0F292F;
     background-color:#0F292F;
     width: 100%;
     display: grid;
@@ -681,7 +693,6 @@ button:hover
 .links .contactinfo
 {
     color: #CCCCCC;
-    /* border: 1px solid black; */
     margin: 0rem 1.5rem;
     padding: 0.5rem 1rem;
 }
@@ -705,7 +716,6 @@ button:hover
 .links .quicklinks
 {
     color: #CCCCCC;
-    /* border: 1px solid black; */
     margin: 0rem 1.5rem;
     padding: 0.2rem 0.8rem;
     display: grid;
@@ -735,7 +745,6 @@ button:hover
 }
 .links .thank
 {
-    /* border: 1px solid black; */
     margin: 0rem 1.5rem;
     padding: 2rem 0.2rem;
     color: #CCCCCC;

@@ -21,20 +21,12 @@
     position:fixed;
     transform: translateY(-120%);
     transition: transform 0.2s;
-    /* transition: transform 0.3s ease-in; */
-    /* border: 1px solid white; */
     width: 100%;
     z-index: -2;
 }
-/* .sidebar
-{
-    border: 1px solid red;
-    display: none;
-} */
 
 .navbar ul li
 {
-    /* border: 1px solid blue; */
     display: block;
     justify-content: center;
     width:100%;
@@ -51,7 +43,6 @@
 .navbar li:hover
 {
     text-decoration: underline;
-    /* border: 1px solid white; */
     border-radius: 19px;
     background-color: #14A098;
     color: black;
@@ -62,7 +53,6 @@
 }
 .hamberger
 {
-    /* border: 1px solid white; */
     /* background: url("ham.jpg") no-repeat;
     background-size: contain; */
     padding: 0.3rem;
@@ -72,7 +62,6 @@
     left: 0rem;
     width: 15%;
     height: 7%;
-    /* margin: 1rem 1rem; */
     display: block;
     position: fixed;
     cursor: pointer;
@@ -85,14 +74,15 @@
 {
     transform: translateY(0);
 }
-/* .hamberger:hover
-{
-    cursor: pointer;
-} */
+
 /* -------------------------------------------------------HOME SECTION-------------------------------------------------- */
 #home
 {
-    /* width: 200%; */
+    flex-direction: column;
+}
+
+#home .home-items{
+    flex-direction: column-reverse;
 }
 #home .img
 {
@@ -101,9 +91,8 @@
 }
 #home .content
 {
-    /* border: 1px solid black; */
     text-align: center;
-    margin: 0rem auto;
+    margin: 1rem auto;
     padding: 0rem 0.5rem;
     font-size: 2rem;
     color: #cccccc;
@@ -111,39 +100,65 @@
     height: auto;
 }
 /* -----------------------------------------------------ABOUT ME SECTION------------------------------------------------ */
+#aboutme-pointer
+{
+    padding: 0rem;
+    background-color: #0F292F;
+}
+
 #Aboutme
 {
-    /* width: 200%; */
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 #Aboutme .ContentA .left
 {
-    /* border: 1px solid; */
     margin: 0rem;
     margin-left:3rem ;
     width: 0%;
-    padding: 7rem;
+    padding: 5rem;
 }
 #Aboutme .ContentA .right
 {
     display: block;
-    /* border: 1px solid blue; */
     text-align: justify;
     margin: 0.1rem 0rem;
     width: 95%;
     padding: 1rem;
 }
+#Aboutme .Heading{
+    font-size: 1.4rem;
+}
+#Aboutme .Heading h2
+{
+    font-size: 2.8rem;
+}
 #Aboutme .ContentA .right h2
 {
+    font-size: 1.7rem;
     text-align: center;
 }
+
 #Aboutme .ContentA .right h4
 {
+    font-size:1rem ;
     text-align: center;
 }
+#Aboutme .ContentA .right p{
+    font-size: 1.1rem;
+}
+
 /* ----------------------------------------------------EDUCATION SECTION------------------------------------------------ */
+#education-pointer
+{
+    padding: 0rem;
+    background-color: #0F292F;
+}
+
 #Education .heading
 {
+    font-size: 1.4rem;
     margin-top: 0rem;
 }
 #Education .btech
@@ -182,12 +197,25 @@
     background-size: cover;
 }
 /* ---------------------------------------------WORK SECTION------------------------------------------ */
+#work-pointer{
+    padding: 0rem;
+}
 #Work .project
 {
     display: block;
     width: 90%;
 }
+#Work .heading
+{
+    font-size: 1.4rem;
+}
 /* --------------------------------------SILLS SECTION------------------------------------------------- */
+#skills-pointer{
+    padding: 0rem;
+}
+#Skills .heading{
+    font-size: 1.4rem;
+}
 #Skills .content
 {
     height: 100%;
@@ -203,7 +231,15 @@
 
 
 /* ----------------------------------------------------CONTACT SECTION-------------------------------------------------- */
-
+#contact-pointer{
+    padding: 0rem;
+}
+#Contact .heading{
+    font-size: 1.4rem;
+}
+#Contact .heading h2{
+    font-size: 2.8rem;
+}
 #Contact .form
 {
     background: url("contact.jpg") no-repeat center center/cover;
@@ -227,8 +263,7 @@
 #Contact .form input,textarea,button
 {
     position: relative;
-    margin: 0.4rem 1.1rem;
-    
+    margin: 0.4rem 1.1rem;    
     border: 1px solid ;
     width: 80%;
     padding: 0rem 1.2rem;
@@ -253,11 +288,9 @@ textarea
 .links .contactinfo
 {
     text-align: center;
-    /* background-color: rgb(8, 8, 68); */
     display: block;
     position:absolute;
     color: whitesmoke;
-    /* border: 1px solid black; */
     margin: 0rem auto;
     width: 100%;
     padding: 0.5rem 0rem;
@@ -266,23 +299,18 @@ textarea
 .links .quicklinks
 {
     text-align: center;
-    /* background-color: rgb(8, 8, 68); */
     display: block;
     position: absolute;
-    /* border: 1px solid black; */
     margin: 17rem auto;
     width: 100%;
     padding: 0.2rem 0rem;
-    /* display: grid; */
 }
 .links .thank
 {
     text-align: center;
     width: 100%;
-    /* background-color: rgb(8, 8, 68); */
     display: block;
     position: absolute;
-    /* border: 1px solid black; */
     margin: 31rem auto;
     padding: 2rem 0rem;
     color: white;
