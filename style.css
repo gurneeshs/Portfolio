@@ -9,6 +9,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body {
@@ -44,13 +45,15 @@ html {
 }
 
 .navbar ul li {
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* border: 1px solid red; */
+
     justify-content: center;
     display: inline-flex;
     color: white;
     text-decoration: none;
     list-style: none;
-    width: 15%;
+    width: 10%;
     padding: 0rem 0rem;
     margin: 0.3rem 0.1rem;
 }
@@ -97,7 +100,7 @@ html {
 
 #Aboutme {
     z-index: -2;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     padding: 1rem 0rem;
     width: 100%;
     justify-content: center;
@@ -105,7 +108,7 @@ html {
 }
 
 #Aboutme .Heading {
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     width: 100%;
     color: #CCCCCC;
     margin: 0rem 0rem;
@@ -158,7 +161,7 @@ html {
     width: 60%;
     padding: 5rem 5rem;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 #Aboutme .ContentA .right h2 {
@@ -175,7 +178,7 @@ html {
 
 #Aboutme .ContentA .right p {
 
-    font-family: inherit;
+    /* font-family: inherit; */
     color: #CCCCCC;
     font-size: 1.1rem;
     line-height: 1.9rem;
@@ -202,7 +205,7 @@ html {
 
 #Education .heading {
     color: #CCCCCC;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     font-size: 0rem;
     align-items: center;
     text-align: center;
@@ -241,7 +244,7 @@ html {
 #Education .btech .content {
     /* border: 1px solid red; */
     padding: 1rem 1rem;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
 }
 
 #Education .btech .content h2 {
@@ -290,7 +293,7 @@ html {
 
 #Education .HSC .content {
     padding: 1rem 1rem;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
 }
 
 #Education .HSC .content h2 {
@@ -339,7 +342,7 @@ html {
 
 #Education .SSC .content {
     padding: 1rem 1rem;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
 }
 
 #Education .SSC .content h2 {
@@ -381,7 +384,7 @@ html {
     color: #CCCCCC;
     width: 100%;
     margin: 0rem 0rem;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     font-size: 1.6rem;
     display: flex;
     justify-content: center;
@@ -409,12 +412,32 @@ html {
 }
 
 #Work .project h2 {
-    font-size: 1.3rem;
-    padding: 0.3rem 0rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem;
     margin: 0rem 0rem;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
 }
+#Work .project p{
+    text-align:justify;
+    margin: 1rem;
+    line-height: 1.4rem;
+    font-size: 1.1rem;
 
+}
+#Work .project .Project_Button{
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem auto;
+    position: relative;
+    display: block;
+    font-size: 1.2rem;
+    width: 30%;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: black;
+
+}
 #Work .project img {
     width: 100%;
     height: fit-content;
@@ -440,7 +463,7 @@ html {
     width: 100%;
     margin: 0.5rem 0rem;
     margin-top: 0rem;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     font-size: 1.7rem;
     justify-content: center;
 }
@@ -463,7 +486,7 @@ html {
 }
 #Skills .content h3{
     font-size: 2rem;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     color: #eeeeee;
     margin: 1rem;
     text-align: left;
@@ -609,7 +632,7 @@ html {
     width: 100%;
     margin: 0.5rem 0rem;
     margin-top: 0rem;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     font-size: 1.7rem;
     justify-content: center;
 }
@@ -662,7 +685,7 @@ html {
 }
 
 #Resume .content .download .download-btn a {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 1.5rem;
     color: #0F292F;
     font-weight: bold;
@@ -694,7 +717,7 @@ html {
     width: 99.4%;
     margin: 0.5rem 0.2rem;
     margin-top: 0rem;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
     font-size: 1.7rem;
     display: flex;
     justify-content: center;
@@ -768,7 +791,7 @@ button:hover {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-family: 'Basic', sans-serif;
+    /* font-family: 'Basic', sans-serif; */
 }
 
 .links .links-itm {
