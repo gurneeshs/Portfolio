@@ -59,7 +59,7 @@ html {
 }
 
 .navbar a {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     text-align: center;
     width: 90%;
     padding: 0.5rem 0.4rem;
@@ -76,7 +76,7 @@ html {
     padding: 1rem;
     text-align: center;
     margin: 0rem 4.6rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .navbar a:hover {
@@ -108,7 +108,7 @@ html {
 }
 
 #Aboutme .Heading {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     width: 100%;
     color: #CCCCCC;
     margin: 0rem 0rem;
@@ -122,7 +122,7 @@ html {
 }
 
 #Aboutme .Heading h2 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     color: #14A098;
     display: inline-block;
 }
@@ -165,12 +165,12 @@ html {
 }
 
 #Aboutme .ContentA .right h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #CCCCCC;
 }
 
 #Aboutme .ContentA .right h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #CCCCCC;
     padding-bottom: 1rem;
@@ -180,7 +180,7 @@ html {
 
     /* font-family: inherit; */
     color: #CCCCCC;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     line-height: 1.9rem;
     font-weight: 400;
     padding: 0.25rem 0rem;
@@ -216,7 +216,7 @@ html {
 
 #Education .heading h1 {
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 #Education .btech {
@@ -249,13 +249,13 @@ html {
 
 #Education .btech .content h2 {
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 0.5rem 0rem;
     color: #eeeeee;
 }
 
 #Education .btech .content h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:  #eeeeee;
     padding: 0.3rem 0rem;
     font-weight: 100;
@@ -264,7 +264,7 @@ html {
 #Education .btech .content h5 {
     color:  #eeeeee;
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.3rem 0rem;
 }
 
@@ -298,13 +298,13 @@ html {
 
 #Education .HSC .content h2 {
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 0.5rem 0rem;
     color: #eeeeee;
 }
 
 #Education .HSC .content h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:  #eeeeee;
     padding: 0.3rem 0rem;
     font-weight: 100;
@@ -313,7 +313,7 @@ html {
 #Education .HSC .content h5 {
     color:  #eeeeee;
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.3rem 0rem;
 }
 
@@ -347,13 +347,13 @@ html {
 
 #Education .SSC .content h2 {
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 0.5rem 0rem;
     color: #eeeeee;
 }
 
 #Education .SSC .content h4 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color:  #eeeeee;
     padding: 0.3rem 0rem;
     font-weight: 100;
@@ -362,7 +362,7 @@ html {
 #Education .SSC .content h5 {
     color:  #eeeeee;
     font-weight: 100;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.3rem 0rem;
 }
 
@@ -385,13 +385,13 @@ html {
     width: 100%;
     margin: 0rem 0rem;
     /* font-family: 'Basic', sans-serif; */
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
 }
 
 #Work .heading h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 1rem;
 }
 
@@ -412,7 +412,7 @@ html {
 }
 
 #Work .project h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 0.5rem 0rem;
     margin: 0rem 0rem;
     /* font-family: 'Basic', sans-serif; */
@@ -421,7 +421,7 @@ html {
     text-align:justify;
     margin: 1rem;
     line-height: 1.4rem;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 
 }
 #Work .project .Project_Button{
@@ -431,7 +431,7 @@ html {
     margin: 1rem auto;
     position: relative;
     display: block;
-    font-size: 1.2rem;
+    font-size: 1rem;
     width: 30%;
     text-decoration: none;
     background-color: #eeeeee;
@@ -464,12 +464,12 @@ html {
     margin: 0.5rem 0rem;
     margin-top: 0rem;
     /* font-family: 'Basic', sans-serif; */
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     justify-content: center;
 }
 
 #Skills .heading h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-bottom: 1rem;
 }
 
@@ -485,7 +485,7 @@ html {
 
 }
 #Skills .content h3{
-    font-size: 2rem;
+    font-size: 1.8rem;
     /* font-family: 'Basic', sans-serif; */
     color: #eeeeee;
     margin: 1rem;
@@ -633,12 +633,12 @@ html {
     margin: 0.5rem 0rem;
     margin-top: 0rem;
     /* font-family: 'Basic', sans-serif; */
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     justify-content: center;
 }
 
 #Resume .heading h1 {
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 #Resume .content {
@@ -686,7 +686,7 @@ html {
 
 #Resume .content .download .download-btn a {
     /* font-family: Arial, Helvetica, sans-serif; */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #0F292F;
     font-weight: bold;
     text-decoration: none;
@@ -718,7 +718,7 @@ html {
     margin: 0.5rem 0.2rem;
     margin-top: 0rem;
     /* font-family: 'Basic', sans-serif; */
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
 }
@@ -726,12 +726,12 @@ html {
 #Contact .heading h1 {
     display: inline;
     margin-right: 1rem;
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 #Contact .heading h2 {
     margin-top: 0.2rem;
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: #14A098;
     display: inline-block;
 }
@@ -768,7 +768,7 @@ button {
     border-radius: 0.5rem;
     padding: 0rem 1.2rem;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 textarea {
@@ -814,7 +814,7 @@ button:hover {
 
 .links .links-itm .contactinfo h4 {
     padding: 0.4rem 0.3rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .links .links-itm .contactinfo h4:hover {
@@ -826,7 +826,7 @@ button:hover {
     color: #14A098;
     padding-top: 0.5rem;
     padding-bottom: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .links .links-itm .contactinfo i {
@@ -835,7 +835,7 @@ button:hover {
 
 .links .links-itm .linkdein i {
     color: #CCCCCC;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .links .links-itm .linkdein i:hover {
@@ -865,12 +865,12 @@ button:hover {
 
 .links .links-itm .quicklinks a {
     color: #CCCCCC;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 .links .links-itm .quicklinks h1 {
     color: #14A098;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: 0.5rem 0rem;
 }
 
@@ -884,13 +884,13 @@ button:hover {
 .links .links-itm .thank p {
     padding-top: 4rem;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* **************************************TAB CSS************************************************/
 @media screen and (max-width:1022px) {
     * {
-        font-size: 14px;
+        font-size: 12px;
     }
    /* ----------------------NAV SECTION------------------------- */
     .navbar #sign {
@@ -1029,7 +1029,7 @@ button:hover {
         border: 1px solid;
         width: 90%;
         padding: 0rem 1.2rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         background-color: white;
         opacity: 0.7;
@@ -1040,7 +1040,7 @@ button:hover {
 /* **************************************PHONE CSS************************************************/
 @media screen and (max-width:649px) {
     *{
-        font-size: 12px;
+        font-size: 10px;
     }
     /* ----------------------NAV SECTION------------------------- */
 
@@ -1082,7 +1082,7 @@ button:hover {
     .navbar a {
         width: 100%;
         padding: 0.5rem 0.2rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .navbar li:hover {
@@ -1148,25 +1148,25 @@ button:hover {
     }
 
     #Aboutme .Heading {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     #Aboutme .Heading h2 {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     #Aboutme .ContentA .right h2 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
     #Aboutme .ContentA .right h4 {
-        font-size: 1rem;
+        font-size: 0.8rem;
         text-align: center;
     }
 
     #Aboutme .ContentA .right p {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
 
     /* ----------------------EDUCATION SECTION------------------------- */
@@ -1176,7 +1176,7 @@ button:hover {
     }
 
     #Education .heading {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin-top: 0rem;
     }
 
@@ -1224,7 +1224,7 @@ button:hover {
     }
 
     #Work .heading {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     /* ----------------------SKILLS SECTION------------------------- */
@@ -1233,7 +1233,7 @@ button:hover {
     }
 
     #Skills .heading {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     #Skills .content {
@@ -1265,11 +1265,11 @@ button:hover {
     }
 
     #Contact .heading {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     #Contact .heading h2 {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     #Contact .form {
@@ -1298,7 +1298,7 @@ button:hover {
         border: 1px solid;
         width: 80%;
         padding: 0rem 1.2rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         text-align: center;
         background-color: white;
         opacity: 0.7;
