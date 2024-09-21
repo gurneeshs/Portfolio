@@ -1,57 +1,46 @@
-// --------------------------------------HAMBERGER-------------------------------------------------------
-const menu = document.querySelector(".menu");
-const hamberger = document.querySelector(".hamberger");
-const menuIcon = document.querySelector(".menuIcon");
-const closeIcon = document.querySelector(".closeIcon");
-const menuItems = document.querySelectorAll(".menuItems");
-function toggleMenu()
-{
-    if (menu.classList.contains("showMenu"))
-    {
-        menu.classList.remove("showMenu");
-        closeIcon.style.display = "none";
-        menuIcon.style.display = "block";
-    }
-    else
-    {
-        menu.classList.add("showMenu");
-        closeIcon.style.display = "block";
-        menuIcon.style.display = "none";
-    }
+// toggle navbar icon
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar')
+
+menuIcon.onclick = () =>{
+    menuIcon.classList.toggle('bx-x')
+    navbar.classList.toggle('active')
 }
 
-hamberger.addEventListener("click",toggleMenu);
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+window.onscroll = () => {
 
-menuItems.forEach(function(menuItems)
-{
-    menuItems.addEventListener("click",toggleMenu);
-})
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 100;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
 
-// ---------------------------------------------SCROLL----------------------------------------------------
-ScrollReveal(
-    { 
-        reset: true,
-        distance: '15px',
-        duration: 2000,
-        delay: 150
-      
-    });
+        if(top >= offset && top < offset + height){
+            navLinks.forEach(links =>{
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id +']').classList.add('active');
+            });
 
-ScrollReveal().reveal('.Heading, .heading, #p1',{origin:'top'});
-ScrollReveal().reveal('.btech, .SSC, #p3, .left, #cl, #java,#css, #dsa',{origin:'left'});
-ScrollReveal().reveal('.HSC, #p2, .right, #cpp, #python, #html,#mysql',{origin:'right'});
-ScrollReveal().reveal('.ContentA, #p4, .content,.form',{origin:'bottom'});
+            // active animations for sections
+            sec.classList.add('show-animate')
+        }
+        else{
+            sec.classList.remove('show-animate');
+        }
 
-// ---------------------------------------------PROJECTS--------------------------------------------------
-let a=document.querySelector("#p1");
-let b=document.querySelector("#p2");
-let c=document.querySelector("#p3");
-let d=document.querySelector("#p4");
-a.addEventListener("click",alert1);
-b.addEventListener("click",alert1);
-c.addEventListener("click",alert1);
-d.addEventListener("click",alert1);
-function alert1()
-{
-    alert("Are you sure to leave the site");
+    })
+    // sticky header
+    let header = document.querySelector('header')
+    header.classList.toggle('sticky', window.scrollY > 100)
+
+    // remove toggle icon and navbar when click
+    menuIcon.classList.remove('bx-x')
+    navbar.classList.remove('active')
+
+    // animation on footer
+    let footer = document.querySelector('footer');
+    footer.classList.toggle('show-animate', this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight);
+
 }
